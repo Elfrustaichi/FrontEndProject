@@ -1,0 +1,38 @@
+#mobile-app-ad{
+        background-color: #fff;
+    background-image: url(https://sme.pashabank.az/themes/sme/assets/images/mobile-image.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: contain;
+    margin-top: 100px;
+    height: 400px;
+    
+    .container{
+        padding: 50px;
+        p{
+            margin-top: 30px;
+        }
+        .mobile-app-download{
+            display: flex;
+            flex-direction: row;
+            margin-top: 50px;
+            .download-btn{
+                display: flex;
+                flex-direction: column;
+                img{
+                    height: 50px;
+                    margin-top: 15px;
+                }
+
+            }
+            .qr-code-download{
+                margin-left: 20px;
+                margin-top: 15px;
+                img{
+                    height: 115px;
+                }
+            }
+        }
+
+    }
+}

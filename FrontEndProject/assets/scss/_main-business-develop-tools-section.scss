@@ -1,0 +1,73 @@
+#business-develop-tools {
+    margin-top: 100px;
+  .development-tools {
+    margin-top: 50px;
+    
+    .tools-row {
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        a{
+            color: inherit;
+    text-decoration: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+        }
+        .dev-tool:hover{
+          box-shadow: 0 6px 10px rgba(0,0,0,.07), 0 0 10px rgba(0,0,0,.03);
+
+        }
+      .dev-tool {
+        transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+        padding: 24px 24px 16px;
+        border-radius: 8px;
+        background-repeat: no-repeat;
+        background-position: 100%;
+      }
+      .tool-6-1{
+        margin-bottom: 24px;
+        width: calc(50% - 12px);
+        background-color: #e7f4f9;
+        background-image: url(https://sme.pashabank.az/themes/sme/assets/images/main-page/pos-terminal.png);
+        padding-right: 280px;
+        height: 350px;
+
+      }
+      .tool-6-2{
+        margin-bottom: 24px;
+        width: calc(50% - 12px);
+        background-color: #ffebf0;
+        background-image: url(https://sme.pashabank.az/themes/sme/assets/images/main-page/business-cards.png);
+        padding-right: 280px;
+        height: 350px;
+    }
+    .tool-4-1{
+        width: calc(33.33333% - 16px);
+    background-color: #fdf6e7;
+    background-image: url(https://sme.pashabank.az/themes/sme/assets/images/main-page/factoring.png);
+    padding-right: 150px;
+    }
+    .tool-4-2{
+        width: calc(33.33333% - 16px);
+    background-color: #e0f3ed;
+    background-image: url(https://sme.pashabank.az/themes/sme/assets/images/main-page/e-commerce.png);
+    padding-right: 150px;
+    background-position: 100% 100%
+
+    }
+    .tool-4-3{
+        width: calc(33.33333% - 16px);
+        background-color: #f4f5f4;
+        background-image: url(https://sme.pashabank.az/themes/sme/assets/images/main-page/bank-guarantee.png);
+        padding-right: 150px;
+
+    }
+      
+    }
+    
+  }
+}

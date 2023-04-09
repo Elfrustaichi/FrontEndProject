@@ -1,0 +1,28 @@
+#latest-news {
+  padding: 80px;
+  .container {
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+    a:hover{
+        color: rgb(46, 179, 117);
+        transition: 1s;
+    }
+    .link-news {
+      margin-top: 80px;
+      a {
+        color: rgb(14, 155, 14);
+      }
+    }
+    .news {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      .new {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
