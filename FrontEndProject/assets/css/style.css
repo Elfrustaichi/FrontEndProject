@@ -258,6 +258,9 @@ header .header-dropdown-hover .dropdown-container .dropdown-content a:hover {
   transition: 1s;
 }
 
+footer {
+  margin-top: 100px;
+}
 footer .footer {
   border-top: solid 1px gray;
 }
@@ -360,8 +363,6 @@ footer .container .header img {
 }
 
 #slider-main {
-  position: relative;
-  top: 75px;
   height: 504px;
   z-index: 1;
 }
@@ -567,6 +568,10 @@ footer .container .header img {
 
 #package-rates {
   margin-top: 100px;
+}
+#package-rates p {
+  color: gray;
+  margin-top: 20px;
 }
 #package-rates .btn-modal {
   display: none;
@@ -868,6 +873,205 @@ footer .container .header img {
           flex-direction: column;
 }
 
+#account-image .image {
+  height: 504px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#account-image .image .image-content {
+  position: relative;
+  top: 50px;
+  height: 404px;
+}
+#account-image .image .image-content h1 {
+  color: black;
+  font-size: 50px;
+}
+#account-image .image .image-content p {
+  color: gray;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+#account-image .image .image-content a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 150px;
+  height: 70px;
+  padding: 16px;
+  background: #058d66;
+  color: #fff;
+}
+
+#be-customer {
+  margin-top: 50px;
+}
+#be-customer p {
+  margin-top: 30px;
+}
+#be-customer a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+#be-customer .be-customer-guide {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#be-customer .be-customer-guide .guide {
+  -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  background-color: #fff;
+  border-radius: 8px;
+  width: 358px;
+  height: 176px;
+  padding: 24px;
+}
+#be-customer .be-customer-guide .guide a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+#be-customer .be-customer-guide .guide a .guide-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+#be-customer .be-customer-guide .guide a .guide-row img {
+  margin-left: 80px;
+  height: 68px;
+  width: 63px;
+}
+#be-customer .be-customer-guide .guide:hover {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.07), 0 0 10px rgba(0, 0, 0, 0.03);
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.07), 0 0 10px rgba(0, 0, 0, 0.03);
+}
+
+#account-advantages {
+  margin-top: 50px;
+}
+#account-advantages .advantage-list {
+  margin-top: 30px;
+}
+#account-advantages .advantage-list .advantage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+#account-advantages .advantage-list .advantage img {
+  height: 67px;
+  width: 62px;
+  margin-right: 20px;
+}
+
+#starting-business-question {
+  background-image: url(https://sme.pashabank.az/themes/sme/assets/images/accounts/kob-bg.jpg);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 456px;
+  margin-top: 100px;
+}
+#starting-business-question .container {
+  padding: 70px;
+}
+#starting-business-question .container h1 {
+  font-size: 48px;
+}
+#starting-business-question .container a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 194px;
+  height: 70px;
+  padding: 16px;
+  background: #058d66;
+  color: #fff;
+}
+#starting-business-question .container .question-row {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  margin-bottom: 80px;
+}
+#starting-business-question .container .question-row .question-column p {
+  font-size: 16px;
+}
+#starting-business-question .container .question-row .question-column span {
+  font-size: 24px;
+}
+
+#most-asked-questions {
+  padding: 50px;
+}
+#most-asked-questions .accordion-questions .question-acc {
+  border-radius: 6px;
+  border: 1px solid #d6d7d6;
+  padding: 16px 20px 16px 16px;
+  background-color: #fff;
+  width: 976px;
+  height: auto;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+#most-asked-questions .accordion-questions .question-acc .question-text a {
+  color: rgb(104, 179, 104);
+}
+#most-asked-questions .accordion-questions .question-acc img {
+  width: 18.67px;
+  height: 18.67px;
+}
+
 body {
   font-family: Gothic A1;
   font-weight: 400;
@@ -880,4 +1084,9 @@ body {
 
 main {
   background-color: #fafafa;
+}
+
+main {
+  position: relative;
+  top: 75px;
 }

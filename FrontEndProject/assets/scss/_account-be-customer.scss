@@ -1,0 +1,44 @@
+
+#be-customer {
+    margin-top: 50px;
+    p{
+        margin-top: 30px;
+    }
+  a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .be-customer-guide {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    .guide {
+      box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+      background-color: #fff;
+      border-radius: 8px;
+      width: 358px;
+      height: 176px;
+      padding: 24px;
+      a {
+        display: flex;
+        flex-direction: row;
+        .guide-row {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-bottom: 20px;
+          img{
+            margin-left: 80px;
+            height: 68px;
+            width: 63px;
+          }
+         
+        }
+      }
+    }
+    .guide:hover {
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.07), 0 0 10px rgba(0, 0, 0, 0.03);
+    }
+  }
+}

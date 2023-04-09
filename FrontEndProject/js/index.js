@@ -2,20 +2,17 @@
 const headerNavTabs = document.querySelectorAll(".nav-tab-header");
 const navTabDropdown = document.querySelector(".header-dropdown-hover");
 const dropdownContentContainer = document.querySelector(".dropdown-container");
-const dropDownButton=document.querySelector(".choose-button");
-const dropDownButtonContent=document.querySelector(".dropdown-button");
-dropDownButtonContent.style.display="none"
+const dropDownButton = document.querySelector(".choose-button");
+const dropDownButtonContent = document.querySelector(".dropdown-button");
+dropDownButtonContent.style.display = "none";
 
-
-dropDownButton.addEventListener("click",()=>{
-  if(dropDownButtonContent.style.display==="none"){
-    dropDownButtonContent.style.display="block";
-
-  }else{
-    dropDownButtonContent.style.display="none";
+dropDownButton.addEventListener("click", () => {
+  if (dropDownButtonContent.style.display === "none") {
+    dropDownButtonContent.style.display = "block";
+  } else {
+    dropDownButtonContent.style.display = "none";
   }
-})
-
+});
 
 navTabDropdown.addEventListener("mouseover", () => {
   navTabDropdown.style.display = "block";
@@ -101,5 +98,28 @@ headerNavTabs.forEach((e) => {
   });
 });
 
-
 // Header JS
+
+// Most asked accordion JS
+const questionButtons = document.querySelectorAll(".question-acc");
+
+questionButtons.forEach((e) => {
+  const targetDropdown = e.querySelector(".accordion-dropdown-question");
+  const targetDropdownIcon = e.querySelector("img");
+  targetDropdown.style.display = "none";
+
+  e.addEventListener("click", () => {
+    if (targetDropdown.style.display === "none") {
+      targetDropdown.style.display = "block";
+      targetDropdownIcon.setAttribute(
+        "src",
+        "./assets/img/accordion-icon-dropdown.png"
+      );
+    } else {
+      targetDropdown.style.display = "none";
+      targetDropdownIcon.setAttribute("src", "./assets/img/accordion-icon.png");
+    }
+  });
+});
+
+// Most asked accordion JS

@@ -1,0 +1,26 @@
+#most-asked-questions {
+  padding: 50px;
+  .accordion-questions {
+    .question-acc {
+      border-radius: 6px;
+      border: 1px solid #d6d7d6;
+      padding: 16px 20px 16px 16px;
+      background-color: #fff;
+      width: 976px;
+      height: auto;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+      .question-text{
+        a{
+            color: rgb(104, 179, 104);
+        }
+      }
+      img{
+        width: 18.67px;
+        height: 18.67px;
+      }
+    }
+  }
+}
