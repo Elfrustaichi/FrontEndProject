@@ -1,52 +1,55 @@
 #package-rates {
   margin-top: 100px;
-  p{
+  p {
     color: gray;
     margin-top: 20px;
   }
-  .btn-modal{
-    display: none;
-    padding-right: 17px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1050;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    outline: 0;
-    padding: 100px;
-    .modal-content{
-      border-radius: 8px;
-    border: none;
-    position: relative;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    width: 60%;
-    margin: auto;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
-    outline: 0;
-    height: 100%;
-    .modal-header{
-      font-size: 20px;
+  .modal-content {
+    width: 800px;
+    left: -150px;
+  }
+  .modal-footer {
+    .modal-account-create-btn {
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      width: 100px;
+      height: 50px;
+      padding: 16px;
+      background: #058d66;
+      color: #fff;
+      z-index: 1050;
     }
-    .modal-body{
-      position: relative;
-    -webkit-box-flex: 1;
-    flex: 1 1 auto;
-    table{
-      tr{
-      }
-    }
-    
+  }
+  .modal-body {
+    table {
+      width: 100%;
+      tr {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px rgb(245, 245, 245) solid;
+        td {
+          width: 50%;
+          margin-top: 20px;
+          padding: 10px;
+        }
+        .green-td{
+          color: #058d66;
 
-    }
+        }
+        .upper-green-td{
+          font-size: 32px;
+          color: #058d66;
+        }
+      }
     }
   }
   .packages {
@@ -113,7 +116,8 @@
       .package-action-btn {
         display: flex;
         flex-direction: column;
-        a,button {
+        a,
+        button {
           font-size: 14px;
           line-height: 24px;
           letter-spacing: 0.1px;
@@ -124,25 +128,22 @@
           border: none;
           margin-bottom: 20px;
           height: 40px;
-          
         }
-        .more-info-btn{
-            background-color: #fff;
-            color: #058d66;
-
+        .more-info-btn {
+          background-color: #fff;
+          color: #058d66;
         }
-        .more-info-btn:hover{
-            background-color: rgb(232, 255, 232);
-            transition: 2s;
+        .more-info-btn:hover {
+          background-color: rgb(232, 255, 232);
+          transition: 2s;
         }
-        .create-account-btn{
-            background: #058d66;
-            color: #fff;
-            text-align: center;
-            text-align: center;
-            padding: 8px;
-            text-decoration: none;
-
+        .create-account-btn {
+          background: #058d66;
+          color: #fff;
+          text-align: center;
+          text-align: center;
+          padding: 8px;
+          text-decoration: none;
         }
       }
     }

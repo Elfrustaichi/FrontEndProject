@@ -46,6 +46,19 @@
             background: #058d66;
             color: #fff;
           }
+          #info-slider-btn{
+            background-color: transparent;
+            outline: auto;
+            border:1px solid green;
+            color: #007d57;
+            border: #00af7e;
+
+          }
+          a:hover{
+            background-color: #00af7e;
+            transition: 1s;
+
+          }
         
 
     }

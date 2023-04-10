@@ -412,6 +412,18 @@ footer .container .header img {
   background: #058d66;
   color: #fff;
 }
+#slider-main .carousel-item .carousel-content #info-slider-btn {
+  background-color: transparent;
+  outline: auto;
+  border: 1px solid green;
+  color: #007d57;
+  border: #00af7e;
+}
+#slider-main .carousel-item .carousel-content a:hover {
+  background-color: #00af7e;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
 #slider-main .carousel-item img {
   height: 504px;
 }
@@ -573,48 +585,57 @@ footer .container .header img {
   color: gray;
   margin-top: 20px;
 }
-#package-rates .btn-modal {
-  display: none;
-  padding-right: 17px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1050;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  outline: 0;
-  padding: 100px;
+#package-rates .modal-content {
+  width: 800px;
+  left: -150px;
 }
-#package-rates .btn-modal .modal-content {
-  border-radius: 8px;
+#package-rates .modal-footer .modal-account-create-btn {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
   border: none;
-  position: relative;
+  width: 100px;
+  height: 50px;
+  padding: 16px;
+  background: #058d66;
+  color: #fff;
+  z-index: 1050;
+}
+#package-rates .modal-body table {
+  width: 100%;
+}
+#package-rates .modal-body table tr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  width: 60%;
-  margin: auto;
-  pointer-events: auto;
-  background-color: #fff;
-  background-clip: padding-box;
-  outline: 0;
-  height: 100%;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px rgb(245, 245, 245) solid;
 }
-#package-rates .btn-modal .modal-content .modal-header {
-  font-size: 20px;
+#package-rates .modal-body table tr td {
+  width: 50%;
+  margin-top: 20px;
+  padding: 10px;
 }
-#package-rates .btn-modal .modal-content .modal-body {
-  position: relative;
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
-      flex: 1 1 auto;
+#package-rates .modal-body table tr .green-td {
+  color: #058d66;
+}
+#package-rates .modal-body table tr .upper-green-td {
+  font-size: 32px;
+  color: #058d66;
 }
 #package-rates .packages {
   display: -webkit-box;
@@ -707,7 +728,8 @@ footer .container .header img {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-#package-rates .packages .package-info .package-action-btn a, #package-rates .packages .package-info .package-action-btn button {
+#package-rates .packages .package-info .package-action-btn a,
+#package-rates .packages .package-info .package-action-btn button {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.1px;
@@ -1048,12 +1070,15 @@ footer .container .header img {
 #most-asked-questions {
   padding: 50px;
 }
+#most-asked-questions .accordion-questions {
+  width: 100%;
+}
 #most-asked-questions .accordion-questions .question-acc {
   border-radius: 6px;
   border: 1px solid #d6d7d6;
   padding: 16px 20px 16px 16px;
   background-color: #fff;
-  width: 976px;
+  width: 100%;
   height: auto;
   margin-top: 20px;
   display: -webkit-box;
@@ -1070,6 +1095,481 @@ footer .container .header img {
 #most-asked-questions .accordion-questions .question-acc img {
   width: 18.67px;
   height: 18.67px;
+}
+
+#card-offer {
+  margin-top: 40px;
+}
+#card-offer .offer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#card-offer .offer-content .card-offer-content h1 {
+  margin-bottom: 30px;
+}
+#card-offer .offer-content .card-offer-content h5 {
+  margin-bottom: 20px;
+}
+#card-offer .offer-content .card-offer-content p {
+  margin-bottom: 80px;
+}
+
+#offered-business-cards {
+  margin-top: 50px;
+}
+#offered-business-cards .card-content {
+  padding: 40px 24px 40px 32px;
+  margin-bottom: 32px;
+  -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  -webkit-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+#offered-business-cards .card-content .card-content-dropdown {
+  margin-left: 30px;
+  border-top: rgb(221, 221, 221) 1px solid;
+}
+#offered-business-cards .card-content .card-content-dropdown .card-content-dropdown-bottomtext {
+  color: gray;
+  margin-top: 20px;
+}
+#offered-business-cards .card-content .card-content-dropdown .card-content-dropdown-bottomtext h6 {
+  color: rgb(92, 92, 92);
+}
+#offered-business-cards .card-content .card-content-dropdown .card-serve-list {
+  margin-top: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#offered-business-cards .card-content .card-content-dropdown .card-serve-list .serve {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 48%;
+  margin-top: 20px;
+}
+#offered-business-cards .card-content .card-content-dropdown .card-serve-list .serve img {
+  margin-right: 20px;
+  height: 67px;
+  width: 67px;
+}
+#offered-business-cards .card-content .card-content-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#offered-business-cards .card-content .card-img {
+  width: 40%;
+}
+#offered-business-cards .card-content .card-information .card-deadline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#offered-business-cards .card-content .card-information .card-deadline p {
+  color: gray;
+}
+#offered-business-cards .card-content .card-information .card-deadline span {
+  font-weight: 500;
+}
+#offered-business-cards .card-content .card-info-buttons {
+  margin-top: 40px;
+}
+#offered-business-cards .card-content .card-info-buttons a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 128px;
+  height: 48px;
+  padding: 16px;
+  background: #058d66;
+  color: #fff;
+}
+#offered-business-cards .card-content .card-info-buttons a:hover {
+  background-color: #00af7e;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+#offered-business-cards .card-content .card-info-buttons button {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  height: 40px;
+  background-color: #fff;
+  color: #058d66;
+  width: 128px;
+  height: 48px;
+}
+#offered-business-cards .card-content .card-info-buttons button:hover {
+  background-color: rgb(232, 255, 232);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+#offered-business-cards #card-content:hover {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.07), 0 0 10px rgba(0, 0, 0, 0.03);
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.07), 0 0 10px rgba(0, 0, 0, 0.03);
+}
+
+#how-to-order-card {
+  margin-top: 50px;
+}
+#how-to-order-card .order-steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+#how-to-order-card .order-steps .step-img {
+  margin-bottom: 30px;
+}
+#how-to-order-card .order-steps .step-img h5 {
+  margin-bottom: 20px;
+}
+#how-to-order-card .order-steps img {
+  height: 67px;
+  width: 67px;
+}
+#how-to-order-card .order-steps .step {
+  width: 30%;
+}
+
+#advantages-of-cards {
+  margin-top: 50px;
+}
+#advantages-of-cards .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#advantages-of-cards .container .advantage-div {
+  padding: 24px;
+  margin-right: 24px;
+  -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  -webkit-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  height: 176px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 30%;
+}
+#advantages-of-cards .container .advantage-div img {
+  width: 107px;
+  height: 40px;
+}
+#advantages-of-cards .container .advantage-div p {
+  font-size: 24px;
+  margin-top: 20px;
+}
+#advantages-of-cards .container .advantage-div:hover {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.07), 0 0 10px rgba(0, 0, 0, 0.03);
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.07), 0 0 10px rgba(0, 0, 0, 0.03);
+}
+
+#advantages-of-salary-cards {
+  margin-top: 80px;
+}
+#advantages-of-salary-cards .tab-nav-contents .tab-content-1,
+#advantages-of-salary-cards .tab-nav-contents .tab-content-2 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#advantages-of-salary-cards .tab-nav-contents .tab-content-1 .content-advantage,
+#advantages-of-salary-cards .tab-nav-contents .tab-content-2 .content-advantage {
+  overflow: hidden;
+  border-radius: 8px;
+  -webkit-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  background-color: #fff;
+  height: 156px;
+  margin-bottom: 24px;
+  -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  padding: 24px;
+  width: 32%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#advantages-of-salary-cards .tab-nav-button {
+  margin-top: 30px;
+  border-bottom: 1px rgb(212, 212, 212) solid;
+}
+#advantages-of-salary-cards .tab-nav-button button {
+  margin-right: 32px;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-weight: 500;
+  padding: 0 8px 12px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: gray;
+}
+#advantages-of-salary-cards .tab-nav-button .button-1 {
+  color: black;
+  border-bottom: 2px green solid;
+}
+
+#rates-package-salary .container .salary-package-foot {
+  height: 100%;
+}
+#rates-package-salary .container .salary-package-foot .btn-margin {
+  margin-top: 75px;
+}
+#rates-package-salary .container .salary-package-foot .btn-order-foot {
+  width: 100%;
+  height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#rates-package-salary .container .salary-package-foot a {
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 80%;
+  height: 50px;
+  padding: 16px;
+  background: #058d66;
+  color: #fff;
+}
+#rates-package-salary .container .salary-package-foot a:hover {
+  background-color: #00af7e;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+#rates-package-salary .container .salary-package-foot .package-foot {
+  padding: 24px;
+}
+#rates-package-salary .container .salary-package-foot .package-foot .btn-margin {
+  margin-top: 130px;
+}
+#rates-package-salary .container .salary-package-foot .package-foot ul {
+  display: block;
+  list-style-type: disc;
+  list-style: none;
+}
+#rates-package-salary .container .salary-package-foot .package-foot ul li {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 16px;
+  background: url(https://sme.pashabank.az/themes/sme/assets/images/done.svg) no-repeat 0;
+  background-size: 20px;
+  background-position-y: top;
+  padding: 0 28px;
+}
+#rates-package-salary .container .salary-package-foot .package-foot ul li span {
+  color: green;
+}
+#rates-package-salary .container .salary-package-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#rates-package-salary .container .salary-package-main .salary-package-prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#rates-package-salary .container .salary-package-main .salary-package-prices .price-pack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 10px;
+}
+#rates-package-salary .container .salary-package-main .salary-package-prices .price-pack span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: rgb(2, 190, 2);
+  font-size: 24px;
+}
+#rates-package-salary .container .salary-package-main .salary-package-prices .price-pack .price-pack-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 20px;
+}
+#rates-package-salary .container .salary-package-main .salary-package-prices .price-pack .price-pack-row img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+#rates-package-salary .container .price-pack-row-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px rgb(216, 216, 216) solid;
+  border-top: 1px rgb(216, 216, 216) solid;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#rates-package-salary .container .price-pack-row-bottom p {
+  color: gray;
+}
+#rates-package-salary .container .price-pack-row-bottom span {
+  color: gray !important;
+}
+#rates-package-salary .container .price-pack-row-bottom p {
+  margin-top: 10px;
+}
+#rates-package-salary .container .row-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#rates-package-salary .container .row-2 .price-pack-row {
+  margin-top: 10px;
+}
+#rates-package-salary .container .margin-span {
+  margin-top: 20px;
+}
+#rates-package-salary .container .price-pack-row img {
+  width: 10px;
+  height: 10px;
+}
+#rates-package-salary .container .salary-packages-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#rates-package-salary .container .salary-package {
+  padding: 32px 0 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  position: relative;
+  margin-top: 15px;
+  -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  margin-right: 16px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 32%;
+  margin-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 body {

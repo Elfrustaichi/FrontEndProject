@@ -1,0 +1,30 @@
+#how-to-order-card {
+  margin-top: 50px;
+  .order-steps {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    .step-img {
+      margin-bottom: 30px;
+      h5 {
+        margin-bottom: 20px;
+      }
+    }
+    img {
+      height: 67px;
+      width: 67px;
+    }
+    // .step-img::after{
+    //     position: absolute;
+    //     content: "";
+    //     width: calc(100% - 88px);
+    //     right: 0;
+    //     top: 50%;
+    //     height: 5px;
+    //     background-color: #edefed;
+    // }
+    .step {
+      width: 30%;
+    }
+  }
+}

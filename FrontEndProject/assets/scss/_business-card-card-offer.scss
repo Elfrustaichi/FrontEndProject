@@ -1,0 +1,19 @@
+#card-offer{
+    margin-top: 40px;
+  .offer-content{
+    display: flex;
+    justify-content: space-between;
+    .card-offer-content{
+        h1{
+            margin-bottom: 30px;
+        }
+        h5{
+            margin-bottom: 20px;
+        }
+        p{
+            margin-bottom: 80px;
+        }
+
+    }
+  }
+}
