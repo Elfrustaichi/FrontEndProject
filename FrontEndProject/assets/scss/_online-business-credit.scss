@@ -1,0 +1,50 @@
+#online-business-body{
+    padding: 100px;
+    p{
+        color: gray;
+    }
+    .div-of-credit-part{
+     background-image: url(https://sme.pashabank.az/themes/sme/assets/images/online-business-credit/flexible_credit_cover.png);
+     background-position: right;
+     background-color: #fff;
+     border-radius: 8px;
+     background-repeat: no-repeat;
+     background-position: 100% 100%;
+     background-size: contain;
+     box-shadow: 0 2px 7px rgba(0,0,0,.07);
+     padding: 40px;
+     margin-top: 50px;
+     .online-business-credit-part{
+        .credit-part-btn{
+            margin-top: 30px;
+                a{
+                   button{
+                    border: none;
+                    border-radius: 4px;
+                    padding: 12px 16px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-right: 40px;
+                   }
+                   .hover-btn:hover{
+                    background-color: rgb(229, 252, 229)!important;
+                    transition: 2s;
+
+                   }
+                    
+                }
+            }
+        .part-content{
+            display: flex;
+            flex-wrap: wrap;
+            
+            .content{
+                width: 40%;
+                margin-top: 20px;
+                
+            }
+            
+        }
+     }
+    }
+}

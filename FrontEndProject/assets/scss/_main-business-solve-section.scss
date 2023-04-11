@@ -3,6 +3,7 @@
   .container {
     .solve-actions {
       display: flex;
+      justify-content: space-between;
       margin-top: 50px;
       a {
         color: inherit;
@@ -42,7 +43,6 @@
           background-position-y: top;
           padding: 0 28px;
           display: list-item;
-          text-align: -webkit-match-parent;
           color: rgba(0, 0, 0, 0.6);
           font-weight: 500;
           font-size: 14px;

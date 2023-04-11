@@ -435,6 +435,9 @@ footer .container .header img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 50px;
 }
 #owners-business-solve .container .solve-actions a {
@@ -476,7 +479,6 @@ footer .container .header img {
   background-position-y: top;
   padding: 0 28px;
   display: list-item;
-  text-align: -webkit-match-parent;
   color: rgba(0, 0, 0, 0.6);
   font-weight: 500;
   font-size: 14px;
@@ -1934,4 +1936,51 @@ main {
 main {
   position: relative;
   top: 75px;
+}
+
+#online-business-body {
+  padding: 100px;
+}
+#online-business-body p {
+  color: gray;
+}
+#online-business-body .div-of-credit-part {
+  background-image: url(https://sme.pashabank.az/themes/sme/assets/images/online-business-credit/flexible_credit_cover.png);
+  background-position: right;
+  background-color: #fff;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: contain;
+  -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  padding: 40px;
+  margin-top: 50px;
+}
+#online-business-body .div-of-credit-part .online-business-credit-part .credit-part-btn {
+  margin-top: 30px;
+}
+#online-business-body .div-of-credit-part .online-business-credit-part .credit-part-btn a button {
+  border: none;
+  border-radius: 4px;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 40px;
+}
+#online-business-body .div-of-credit-part .online-business-credit-part .credit-part-btn a .hover-btn:hover {
+  background-color: rgb(229, 252, 229) !important;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+#online-business-body .div-of-credit-part .online-business-credit-part .part-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+#online-business-body .div-of-credit-part .online-business-credit-part .part-content .content {
+  width: 40%;
+  margin-top: 20px;
 }
