@@ -1,0 +1,69 @@
+#what-customers-say{
+    margin-top: 50px;
+    .container{
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+        .customer-say-video{
+            background-image: url(https://i.ytimg.com/vi/E2GTbcJnkSU/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gTigmMA8=&rs=AOn4CLAYt01MlJpr_ULgclZXOPIpq3qYmg);
+            background-size: contain;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            img{
+                height: 67px;
+                width: 100px;
+            }
+            .video-button{
+                button{
+                    border: none;
+                outline: none;
+                background-color: green;
+                color: white;
+                height: 50px;
+                padding: 10px;
+                position: absolute;
+                bottom: 50px;
+                right: 50px;
+                // display: none;
+            }
+                
+            }
+
+        }
+        .customer-say-text{
+            width: 48%;
+            h2{
+                font-size: 32px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            p{
+                font-size: 20px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            div{
+                p{
+                    font-size: 10px;
+                    margin-top: -15px;
+                }
+                span{
+                    font-size: 24px;
+                }
+            }
+
+        }
+        .customer-say-video{
+            width: 48%;
+            
+        }
+    }
+    // .container:hover{
+    //     .video-button{
+    //         display: block;
+    //     }
+        
+    // }
+}

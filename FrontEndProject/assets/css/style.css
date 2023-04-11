@@ -906,6 +906,26 @@ footer .container .header img {
   top: 50px;
   height: 404px;
 }
+#account-image .image .image-content ul {
+  display: block;
+  list-style-type: disc;
+  list-style: none;
+}
+#account-image .image .image-content ul li {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 16px;
+  background: url(https://sme.pashabank.az/themes/sme/assets/images/done.svg) no-repeat 0;
+  background-size: 20px;
+  background-position-y: top;
+  padding: 0 28px;
+}
+#account-image .image .image-content ul li span {
+  color: green;
+}
 #account-image .image .image-content h1 {
   color: black;
   font-size: 50px;
@@ -1374,6 +1394,47 @@ footer .container .header img {
   border-bottom: 2px green solid;
 }
 
+#advantages-of-salary-cards .table-1 tr {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgb(206, 206, 206);
+}
+#advantages-of-salary-cards .table-1 tr th {
+  width: 40%;
+  height: 20px;
+}
+#advantages-of-salary-cards .table-1 tr td {
+  width: 40%;
+}
+#advantages-of-salary-cards .table-1 tr .width-100 {
+  width: 100% !important;
+}
+
+#advantages-of-salary-cards .table-2 tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: rgb(206, 206, 206) 1px solid;
+  padding: 20px;
+}
+#advantages-of-salary-cards .table-2 tr th {
+  width: 40%;
+}
+#advantages-of-salary-cards .table-2 tr td {
+  width: 40%;
+}
+#advantages-of-salary-cards .table-2 tr .width-100 {
+  width: 100% !important;
+}
+
 #rates-package-salary .container .salary-package-foot {
   height: 100%;
 }
@@ -1570,6 +1631,290 @@ footer .container .header img {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.margin-top-7 {
+  margin-top: 60px;
+}
+
+.padding-bottom-6 {
+  padding-bottom: 50px;
+}
+
+.padding-bottom-8 {
+  padding-bottom: 60px;
+}
+
+.padding-top-7 {
+  padding-top: 55px;
+}
+
+.margin-bottom-4 {
+  margin-bottom: 40px;
+}
+
+#business-loan-without-bail-calculator {
+  background-color: #fff;
+  -webkit-box-shadow: 2px 5px 7px 0 rgba(0, 0, 0, 0.07);
+          box-shadow: 2px 5px 7px 0 rgba(0, 0, 0, 0.07);
+}
+
+.result-show-tabel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.calculator-success-text {
+  color: #099a71;
+}
+
+.price-amount-slider {
+  position: relative;
+}
+.price-amount-slider input[type=range] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  overflow: hidden;
+  background: transparent;
+  height: 26px;
+  position: relative;
+  top: -16px;
+  left: 16px;
+  z-index: 1;
+  width: calc(100% - 36px);
+  outline: none;
+}
+.price-amount-slider input[type=range]::-ms-thumb {
+  border: 2px solid #fff;
+  height: 16px;
+  width: 16px;
+  margin-top: -4px;
+  border-radius: 50%;
+  background: #099a71;
+  cursor: pointer;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.price-amount-slider input[type=range]::-webkit-slider-thumb {
+  outline: none;
+  -webkit-appearance: none;
+  margin-top: -4px;
+  border: 2px solid #fff;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #099a71;
+  cursor: pointer;
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.price-amount-slider input[type=range]::-moz-range-thumb {
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #099a71;
+  cursor: pointer;
+}
+.price-amount-slider input[type=range]::-moz-range-thumb {
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #099a71;
+  cursor: pointer;
+}
+.price-amount-slider input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 0;
+  border: 0;
+  padding: 0;
+}
+.price-amount-slider input[type=range]::-ms-fill-lower,
+.price-amount-slider input[type=range]::-ms-fill-upper {
+  background: #007d57;
+  border: 0.2px solid #010101;
+}
+.price-amount-slider input[type=range]:focus::-ms-fill-lower,
+.price-amount-slider input[type=range]:focus::-ms-fill-upper {
+  background: #007d57;
+}
+
+.price-amount-slider-text {
+  background-color: #fff;
+  border: 1px solid #d6d7d6;
+  border-radius: 6px;
+  padding: 12px 20px 8px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.price-amount-slider-text label {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+}
+.price-amount-slider-text input {
+  font-family: Gothic A1;
+  font-size: 15px;
+  font-weight: 500;
+  background: transparent;
+  padding: 4px 0 0;
+  border: none;
+  outline: none;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.price-amount-slider-text div {
+  font-weight: 600;
+  font-size: 14px;
+  position: absolute;
+  right: 20px;
+  top: 22px;
+}
+
+#getting-business-credit {
+  margin-top: 40px;
+}
+#getting-business-credit .getting-credit-step {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#getting-business-credit .getting-credit-step .step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#getting-business-credit .getting-credit-step .step img {
+  margin-right: 20px;
+}
+
+#what-customers-say {
+  margin-top: 50px;
+}
+#what-customers-say .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  cursor: pointer;
+}
+#what-customers-say .container .customer-say-video {
+  background-image: url(https://i.ytimg.com/vi/E2GTbcJnkSU/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gTigmMA8=&rs=AOn4CLAYt01MlJpr_ULgclZXOPIpq3qYmg);
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+#what-customers-say .container .customer-say-video img {
+  height: 67px;
+  width: 100px;
+}
+#what-customers-say .container .customer-say-video .video-button button {
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  height: 50px;
+  padding: 10px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+#what-customers-say .container .customer-say-text {
+  width: 48%;
+}
+#what-customers-say .container .customer-say-text h2 {
+  font-size: 32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#what-customers-say .container .customer-say-text p {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#what-customers-say .container .customer-say-text div p {
+  font-size: 10px;
+  margin-top: -15px;
+}
+#what-customers-say .container .customer-say-text div span {
+  font-size: 24px;
+}
+#what-customers-say .container .customer-say-video {
+  width: 48%;
+}
+
+#are-you-our-customer-image {
+  height: 504px;
+  background-color: rgb(247, 255, 247);
+  background-image: url(https://sme.pashabank.az/themes/sme/assets/images/online-business-credit/zero_step.png);
+  background-position: 30%;
+  background-repeat: no-repeat;
+  margin-top: 120px;
+}
+#are-you-our-customer-image .container {
+  height: 504px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#are-you-our-customer-image .container .image-text h4 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+#are-you-our-customer-image .container .image-text p {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: gray;
+}
+#are-you-our-customer-image .container .image-text h6 {
+  font-size: 20px;
+}
+#are-you-our-customer-image .container .image-text .text-btn {
+  margin-top: 50px;
+}
+#are-you-our-customer-image .container .image-text .text-btn a {
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 20px;
 }
 
 body {

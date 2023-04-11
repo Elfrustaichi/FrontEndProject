@@ -6,18 +6,5 @@
 @import "_most-asked-questions";
 @import "_business-card.scss";
 @import "_salary-cards.scss";
-body {
-    font-family: Gothic A1;
-    font-weight: 400;
-    color: rgba(0,0,0,.87);
-}
-body {
-    line-height: 1;
-}
-main{
-    background-color: #fafafa;
-}
-main{
-    position: relative;
-  top: 75px;
-}
+@import "_business-loan-without-bail.scss";
+@import "_global.scss";

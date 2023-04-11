@@ -1,0 +1,42 @@
+#are-you-our-customer-image{
+    height: 504px;
+    background-color: rgb(247, 255, 247);
+    background-image: url(https://sme.pashabank.az/themes/sme/assets/images/online-business-credit/zero_step.png);
+    background-position: 30%;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    .container{
+        height: 504px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 30px;
+        align-items: center;
+        .image-text{
+            h4{
+                font-size: 32px;
+                margin-bottom: 50px;
+            }
+            p{
+                font-size: 14px;
+                margin-bottom: 30px;
+                color: gray;
+            }
+            h6{
+                font-size: 20px;
+            }
+            .text-btn{
+                margin-top: 50px;
+                a{
+                    padding: 12px 16px;
+                    border-radius: 8px;
+                    font-size: 14px;
+                    text-decoration: none;
+                    margin-right: 20px;
+
+                }
+
+            }
+
+        }
+    }
+}
