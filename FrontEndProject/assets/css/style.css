@@ -362,6 +362,55 @@ footer .container .header img {
   height: 56px;
 }
 
+#most-asked-questions {
+  padding: 50px;
+}
+#most-asked-questions .accordion-questions {
+  width: 100%;
+}
+#most-asked-questions .accordion-questions .question-acc {
+  border-radius: 6px;
+  border: 1px solid #d6d7d6;
+  padding: 16px 20px 16px 16px;
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+#most-asked-questions .accordion-questions .question-acc .question-text a {
+  color: rgb(104, 179, 104);
+}
+#most-asked-questions .accordion-questions .question-acc img {
+  width: 18.67px;
+  height: 18.67px;
+}
+
+body {
+  font-family: Gothic A1;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+body {
+  line-height: 1;
+}
+
+main {
+  background-color: #fafafa;
+}
+
+main {
+  position: relative;
+  top: 75px;
+}
+
 #slider-main {
   height: 504px;
   z-index: 1;
@@ -1087,36 +1136,6 @@ footer .container .header img {
 }
 #starting-business-question .container .question-row .question-column span {
   font-size: 24px;
-}
-
-#most-asked-questions {
-  padding: 50px;
-}
-#most-asked-questions .accordion-questions {
-  width: 100%;
-}
-#most-asked-questions .accordion-questions .question-acc {
-  border-radius: 6px;
-  border: 1px solid #d6d7d6;
-  padding: 16px 20px 16px 16px;
-  background-color: #fff;
-  width: 100%;
-  height: auto;
-  margin-top: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  cursor: pointer;
-}
-#most-asked-questions .accordion-questions .question-acc .question-text a {
-  color: rgb(104, 179, 104);
-}
-#most-asked-questions .accordion-questions .question-acc img {
-  width: 18.67px;
-  height: 18.67px;
 }
 
 #card-offer {
@@ -1919,25 +1938,6 @@ footer .container .header img {
   margin-right: 20px;
 }
 
-body {
-  font-family: Gothic A1;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.87);
-}
-
-body {
-  line-height: 1;
-}
-
-main {
-  background-color: #fafafa;
-}
-
-main {
-  position: relative;
-  top: 75px;
-}
-
 #online-business-body {
   padding: 100px;
 }
@@ -1983,4 +1983,217 @@ main {
 #online-business-body .div-of-credit-part .online-business-credit-part .part-content .content {
   width: 40%;
   margin-top: 20px;
+}
+
+#package-rates-POS {
+  margin-top: 100px;
+}
+#package-rates-POS p {
+  color: gray;
+  margin-top: 20px;
+}
+#package-rates-POS .modal-content {
+  width: 800px;
+  left: -150px;
+}
+#package-rates-POS .modal-footer .modal-account-create-btn {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 50px;
+  padding: 16px;
+  background: #058d66;
+  color: #fff;
+  z-index: 1050;
+}
+#package-rates-POS .modal-body table {
+  width: 100%;
+}
+#package-rates-POS .modal-body table tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px rgb(245, 245, 245) solid;
+}
+#package-rates-POS .modal-body table tr td {
+  width: 50%;
+  margin-top: 20px;
+  padding: 10px;
+}
+#package-rates-POS .modal-body table tr .green-td {
+  color: #058d66;
+}
+#package-rates-POS .modal-body table tr .upper-green-td {
+  font-size: 32px;
+  color: #058d66;
+}
+#package-rates-POS .packages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+#package-rates-POS .packages .package-info {
+  border-radius: 10px;
+  padding: 20px;
+  -webkit-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  margin-right: 24px;
+  padding: 24px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  width: 368px;
+  border-radius: 8px;
+  background-color: #fff;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-shadow: 2px;
+          box-shadow: 2px;
+}
+#package-rates-POS .packages .package-info ul {
+  display: block;
+  list-style-type: disc;
+  list-style: none;
+}
+#package-rates-POS .packages .package-info ul li {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 16px;
+  background: url(https://sme.pashabank.az/themes/sme/assets/images/done.svg) no-repeat 0;
+  background-size: 20px;
+  background-position-y: top;
+  padding: 0 28px;
+}
+#package-rates-POS .packages .package-info ul li span {
+  color: green;
+}
+#package-rates-POS .packages .package-info h5 {
+  margin-bottom: 20px;
+}
+#package-rates-POS .packages .package-info .price-package {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#package-rates-POS .packages .package-info .price-package h1 {
+  font-size: 80px;
+  font-weight: lighter;
+}
+#package-rates-POS .packages .package-info .price-package img,
+#package-rates-POS .packages .package-info .price-package span {
+  margin-top: 30px;
+}
+#package-rates-POS .packages .package-info .package-action-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#package-rates-POS .packages .package-info .package-action-btn a,
+#package-rates-POS .packages .package-info .package-action-btn button {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  height: 40px;
+}
+#package-rates-POS .packages .package-info .package-action-btn .more-info-btn {
+  background-color: #fff;
+  color: #058d66;
+}
+#package-rates-POS .packages .package-info .package-action-btn .more-info-btn:hover {
+  background-color: rgb(232, 255, 232);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+#package-rates-POS .packages .package-info .package-action-btn .create-account-btn {
+  background: #058d66;
+  color: #fff;
+  text-align: center;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+
+#documents-needed {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+#documents-needed h2 {
+  margin-bottom: 50px;
+}
+#documents-needed .documents-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#documents-needed .documents-row .document {
+  -webkit-box-shadow: 0 2px 8px rgba(52, 56, 54, 0.05);
+          box-shadow: 0 2px 8px rgba(52, 56, 54, 0.05);
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 31%;
+  padding: 10px;
+}
+#documents-needed .documents-row .document p {
+  margin-bottom: 30px;
+}
+#documents-needed .documents-row .document a {
+  color: green;
+  text-decoration: none;
 }

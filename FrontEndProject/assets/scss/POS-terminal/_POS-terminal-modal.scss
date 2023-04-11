@@ -1,0 +1,152 @@
+#package-rates-POS {
+    margin-top: 100px;
+    p {
+      color: gray;
+      margin-top: 20px;
+    }
+    .modal-content {
+      width: 800px;
+      left: -150px;
+    }
+    .modal-footer {
+      .modal-account-create-btn {
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        font-weight: 600;
+        border-radius: 6px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        width: 100px;
+        height: 50px;
+        padding: 16px;
+        background: #058d66;
+        color: #fff;
+        z-index: 1050;
+      }
+    }
+    .modal-body {
+      table {
+        width: 100%;
+        tr {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          border-top: 1px rgb(245, 245, 245) solid;
+          td {
+            width: 50%;
+            margin-top: 20px;
+            padding: 10px;
+          }
+          .green-td{
+            color: #058d66;
+  
+          }
+          .upper-green-td{
+            font-size: 32px;
+            color: #058d66;
+          }
+        }
+      }
+    }
+    .packages {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 50px;
+      .package-info {
+        border-radius: 10px;
+        padding: 20px;
+        transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+        margin-right: 24px;
+        padding: 24px;
+        position: relative;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        width: 368px;
+        border-radius: 8px;
+        background-color: #fff;
+        -webkit-box-flex: 1;
+        flex-grow: 1;
+        flex-basis: 0;
+        box-shadow: 2px;
+  
+        ul {
+          display: block;
+          list-style-type: disc;
+          list-style: none;
+          li {
+            color: rgba(0, 0, 0, 0.6);
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.25px;
+            margin-bottom: 16px;
+            background: url(https://sme.pashabank.az/themes/sme/assets/images/done.svg)
+              no-repeat 0;
+            background-size: 20px;
+            background-position-y: top;
+            padding: 0 28px;
+            span {
+              color: green;
+            }
+          }
+        }
+        h5 {
+          margin-bottom: 20px;
+        }
+        .price-package {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          h1 {
+            font-size: 80px;
+            font-weight: lighter;
+          }
+          img,
+          span {
+            margin-top: 30px;
+          }
+        }
+        .package-action-btn {
+          display: flex;
+          flex-direction: column;
+          a,
+          button {
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            margin-bottom: 20px;
+            height: 40px;
+          }
+          .more-info-btn {
+            background-color: #fff;
+            color: #058d66;
+          }
+          .more-info-btn:hover {
+            background-color: rgb(232, 255, 232);
+            transition: 2s;
+          }
+          .create-account-btn {
+            background: #058d66;
+            color: #fff;
+            text-align: center;
+            text-align: center;
+            padding: 8px;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  
