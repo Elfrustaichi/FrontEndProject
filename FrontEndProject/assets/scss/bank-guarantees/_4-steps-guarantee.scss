@@ -1,0 +1,22 @@
+#g-4-steps-guarantee{
+    h2{
+        margin-top: 80px;
+    }
+    .g-4-steps{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        .step{
+            width: 24%;
+            img{
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+       
+    }
+    
+    
+}

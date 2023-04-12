@@ -28,6 +28,12 @@
       }
     }
     .modal-body {
+      ul{
+        li{
+          border-bottom: rgb(202, 202, 202) 1px solid;
+          padding: 10px;
+        }
+      }
       table {
         width: 100%;
         tr {

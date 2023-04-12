@@ -1,0 +1,31 @@
+#how-to-join-ecommerce{
+    padding: 50px;
+    background-color: white;
+    .join-steps{
+        p{
+            font-size: 20px;
+            color: gray;
+            margin-bottom: 50px;
+        }
+        .steps-row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .step{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 32%;
+                img{
+                    height: 107px;
+                    width: 107px;
+                }
+                p{
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

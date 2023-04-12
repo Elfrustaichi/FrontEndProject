@@ -1,0 +1,66 @@
+#ecommerce-advantages{
+    background-color: white;
+    padding: 50px;
+    h2{
+        margin-bottom: 20px;
+    }
+    .serves-of-ecommerce{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .serve{
+            background-color: #fafafa;
+            margin-bottom: 24px;
+            padding: 32px 24px;
+            width: 32%;
+            display: flex;
+            flex-direction: column;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+            span{
+                font-size: 24px;
+                margin-top: 20px;
+            }
+            p{
+                font-size: 20px;
+                color: gray;
+                margin-top: 20px;
+                font-size: 16px;
+            }
+
+        }
+        .serve-last-order{
+            background: linear-gradient(83.06deg,rgba(241,249,247,.56) -77.75%,rgba(224,243,241,.56) -3.38%,rgba(253,246,231,.56) 40.13%,rgba(255,235,240,.56));
+            width: 32%;
+            padding: 20px;
+            margin-bottom: 24px;
+            span{
+                font-weight: 600;
+                font-size: 24px;
+            }
+            p{
+                color: gray;
+                font-size: 16px;
+                margin-top: 20px;
+            }
+            a{
+                button{
+                    color: white;
+                    border-radius: 4px;
+                    border: none;
+                    background-color: green;
+                    margin-top: 30px;
+                    width: 100%;
+                    height: 50px;
+                    
+
+                }
+            }
+        }
+
+    }
+
+}

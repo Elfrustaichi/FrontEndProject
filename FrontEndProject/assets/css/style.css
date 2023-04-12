@@ -2013,6 +2013,10 @@ main {
   color: #fff;
   z-index: 1050;
 }
+#package-rates-POS .modal-body ul li {
+  border-bottom: rgb(202, 202, 202) 1px solid;
+  padding: 10px;
+}
 #package-rates-POS .modal-body table {
   width: 100%;
 }
@@ -2196,4 +2200,377 @@ main {
 #documents-needed .documents-row .document a {
   color: green;
   text-decoration: none;
+}
+
+#what-is-ecommerce {
+  background-color: white;
+  padding: 50px;
+}
+#what-is-ecommerce .serves-of-ecommerce {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#what-is-ecommerce .serves-of-ecommerce .serve {
+  background-color: #fafafa;
+  margin-bottom: 24px;
+  padding: 32px 24px;
+  width: 32%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#what-is-ecommerce .serves-of-ecommerce .serve img {
+  width: 50px;
+  height: 50px;
+}
+#what-is-ecommerce .serves-of-ecommerce .serve span {
+  font-size: 24px;
+}
+#what-is-ecommerce .serves-of-ecommerce .serve p {
+  font-size: 20px;
+}
+
+#ecommerce-advantages {
+  background-color: white;
+  padding: 50px;
+}
+#ecommerce-advantages h2 {
+  margin-bottom: 20px;
+}
+#ecommerce-advantages .serves-of-ecommerce {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+#ecommerce-advantages .serves-of-ecommerce .serve {
+  background-color: #fafafa;
+  margin-bottom: 24px;
+  padding: 32px 24px;
+  width: 32%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#ecommerce-advantages .serves-of-ecommerce .serve img {
+  width: 50px;
+  height: 50px;
+}
+#ecommerce-advantages .serves-of-ecommerce .serve span {
+  font-size: 24px;
+  margin-top: 20px;
+}
+#ecommerce-advantages .serves-of-ecommerce .serve p {
+  font-size: 20px;
+  color: gray;
+  margin-top: 20px;
+  font-size: 16px;
+}
+#ecommerce-advantages .serves-of-ecommerce .serve-last-order {
+  background: linear-gradient(83.06deg, rgba(241, 249, 247, 0.56) -77.75%, rgba(224, 243, 241, 0.56) -3.38%, rgba(253, 246, 231, 0.56) 40.13%, rgba(255, 235, 240, 0.56));
+  width: 32%;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+#ecommerce-advantages .serves-of-ecommerce .serve-last-order span {
+  font-weight: 600;
+  font-size: 24px;
+}
+#ecommerce-advantages .serves-of-ecommerce .serve-last-order p {
+  color: gray;
+  font-size: 16px;
+  margin-top: 20px;
+}
+#ecommerce-advantages .serves-of-ecommerce .serve-last-order a button {
+  color: white;
+  border-radius: 4px;
+  border: none;
+  background-color: green;
+  margin-top: 30px;
+  width: 100%;
+  height: 50px;
+}
+
+#how-to-join-ecommerce {
+  padding: 50px;
+  background-color: white;
+}
+#how-to-join-ecommerce .join-steps p {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 50px;
+}
+#how-to-join-ecommerce .join-steps .steps-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#how-to-join-ecommerce .join-steps .steps-row .step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 32%;
+}
+#how-to-join-ecommerce .join-steps .steps-row .step img {
+  height: 107px;
+  width: 107px;
+}
+#how-to-join-ecommerce .join-steps .steps-row .step p {
+  font-size: 16px;
+  text-align: center;
+}
+
+#advantages-of-bank-guarantees {
+  margin-top: 80px;
+}
+#advantages-of-bank-guarantees .tab-nav-contents .tab-content-1,
+#advantages-of-bank-guarantees .tab-nav-contents .tab-content-2 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+#advantages-of-bank-guarantees .tab-nav-contents .tab-content-1 .content-advantage,
+#advantages-of-bank-guarantees .tab-nav-contents .tab-content-2 .content-advantage {
+  padding: 24px;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#advantages-of-bank-guarantees .tab-nav-contents .tab-content-1 .content-advantage img,
+#advantages-of-bank-guarantees .tab-nav-contents .tab-content-2 .content-advantage img {
+  margin-bottom: 20px;
+}
+#advantages-of-bank-guarantees .tab-nav-contents .tab-content-1 .content-advantage h5,
+#advantages-of-bank-guarantees .tab-nav-contents .tab-content-2 .content-advantage h5 {
+  margin-bottom: 10px;
+}
+#advantages-of-bank-guarantees .tab-nav-contents .tab-content-1 .content-advantage p,
+#advantages-of-bank-guarantees .tab-nav-contents .tab-content-2 .content-advantage p {
+  font-size: 15px;
+}
+#advantages-of-bank-guarantees .tab-nav-button {
+  margin-top: 30px;
+  border-bottom: 1px rgb(212, 212, 212) solid;
+}
+#advantages-of-bank-guarantees .tab-nav-button button {
+  margin-right: 32px;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-weight: 500;
+  padding: 0 8px 12px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: gray;
+}
+#advantages-of-bank-guarantees .tab-nav-button .button-1 {
+  color: black;
+  border-bottom: 2px green solid;
+}
+
+#guarantees-sort h2 {
+  margin-bottom: 20px;
+}
+#guarantees-sort .guarantee {
+  background-color: #fff;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: contain;
+  -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  padding: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#guarantees-sort .guarantee ul {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+#guarantees-sort .guarantee ul li {
+  margin-bottom: 20px;
+}
+#guarantees-sort .guarantee a button {
+  background-color: #058d66;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 120px;
+  font-size: 18px;
+}
+#guarantees-sort .sort-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+#guarantees-sort .sort-buttons button {
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: gray;
+}
+#guarantees-sort .sort-buttons .active {
+  border: 1px solid rgb(0, 124, 0);
+  color: black;
+}
+
+#g-4-steps-guarantee h2 {
+  margin-top: 80px;
+}
+#g-4-steps-guarantee .g-4-steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+#g-4-steps-guarantee .g-4-steps .step {
+  width: 24%;
+}
+#g-4-steps-guarantee .g-4-steps .step img {
+  margin-bottom: 20px;
+}
+#g-4-steps-guarantee .g-4-steps .step p {
+  font-size: 16px;
+}
+
+#application-form {
+  padding: 50px;
+}
+#application-form .container h2 {
+  margin-bottom: 30px;
+}
+#application-form .container .form {
+  padding: 30px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#application-form .container .form input {
+  width: 32%;
+  border: 1px rgb(209, 209, 209) solid;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+#application-form .container .form input::-webkit-outer-spin-button,
+#application-form .container .form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#application-form .container .form a {
+  width: 32%;
+}
+#application-form .container .form a button {
+  background-color: #058d66;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  padding: 20px;
+}
+
+#rates-table-big {
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+#rates-table-big .green-text {
+  color: green;
+}
+#rates-table-big span {
+  color: green;
+}
+#rates-table-big th {
+  font-size: 20px;
+}
+#rates-table-big td {
+  font-size: 15px;
+}
+#rates-table-big td, #rates-table-big th {
+  padding: 30px;
+}
+#rates-table-big tr {
+  border-bottom: 1px rgb(199, 199, 199) solid;
+}
+#rates-table-big a {
+  background-color: #e0f3ed;
+  color: #058d66;
+  text-decoration: none;
+  height: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+#rates-table-big a:hover {
+  color: white;
+  background-color: #058d66;
 }

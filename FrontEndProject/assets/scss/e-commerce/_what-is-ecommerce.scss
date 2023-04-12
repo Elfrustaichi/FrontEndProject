@@ -1,0 +1,29 @@
+#what-is-ecommerce{
+    background-color: white;
+    padding: 50px;
+    .serves-of-ecommerce{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .serve{
+            background-color: #fafafa;
+            margin-bottom: 24px;
+            padding: 32px 24px;
+            width: 32%;
+            display: flex;
+            flex-direction: column;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+            span{
+                font-size: 24px;
+            }
+            p{
+                font-size: 20px;
+            }
+
+        }
+
+    }
+}
