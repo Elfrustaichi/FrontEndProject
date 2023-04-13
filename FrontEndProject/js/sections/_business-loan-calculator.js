@@ -1,16 +1,7 @@
 
-
-
-
-
-
-
-
-
-
 // Business loan calculator
 
-const sliderInputPriceAmount = document.querySelectorAll(".price-amount-slider > input");
+const sliderInputPriceAmount = document.querySelectorAll(".price-amount-slider  input");
 const resutlTotalPriceAmount = document.querySelector(".result-show-table #price-for-mont");
 let sliderPercentValue = document.querySelector(".result-show-table #percent-loan-increase");
 let sliderTotalPercentValue = parseInt(sliderPercentValue.innerText);
