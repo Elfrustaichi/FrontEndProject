@@ -44,54 +44,55 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <header>
-        <section id="header-nav">
-          <div class="logo-nav-tabs">
-            <a href="/main.html">
-              <img
-                id="header-logo"
-                src="./assets/img/pasha-bank-logo.svg"
-                alt="Pasa bank logo"
-              />
-            </a>
-            <p class="nav-tab-header">Biznes üçün xidmətlər</p>
-            <p class="nav-tab-header">Kreditlər</p>
-            <p class="nav-tab-header">Faktorinq</p>
-            <p class="nav-tab-header">Sənədli əməliyyatlar</p>
-            <p class="nav-tab-header">Əlavə Xidmətlər</p>
-          </div>
-          <div class="online-bank">
-            <button class="choose-button">
-              Onlayn Bank<img src="./assets/img/drop-down-icon-header.webp" />
-            </button>
-            <div class="dropdown-button">
-              <button>
-                <a href="">Hüquqi şəxslər və fərdi sahibkarlar üçün</a>
-              </button>
-              <button><a href="">Fiziki şəxslər üçün</a></button>
-            </div>
-          </div>
-        </section>
-        <div class="header-dropdown-hover">
-          <div class="dropdown-container">
-            <div class="col-md-6 dropdown-content">
-              <a href="">İnkassasiya</a>
-              <a href="">Depozitlər</a>
-              <a href="">Bank seyfləri</a>
-              <a href="">Bulud CRM</a>
-            </div>
-            <div class="col-md-6 dropdown-content">
-              <a href="">ÇatBot</a>
-              <a href="">Elektron-ticarət üçün mobil tətbiq</a>
-              <a href="">Umico MasterPass</a>
-              <a href="">PAŞA Biznes</a>
-            </div>
-          </div>
+  <div class="show" id="preloader"> <img src="./assets/img/loading.gif"></div>
+  <header>
+    <section id="header-nav">
+      <div class="logo-nav-tabs">
+        <a href="/main.html">
+          <img
+            id="header-logo"
+            src="./assets/img/pasha-bank-logo.svg"
+            alt="Pasa bank logo"
+          />
+        </a>
+        <p class="nav-tab-header">Biznes üçün xidmətlər</p>
+        <p class="nav-tab-header">Kreditlər</p>
+        <p class="nav-tab-header">Faktorinq</p>
+        <p class="nav-tab-header">Sənədli əməliyyatlar</p>
+        <p class="nav-tab-header">Əlavə Xidmətlər</p>
+      </div>
+      <div class="online-bank">
+        <button class="choose-button">
+          Onlayn Bank<img src="./assets/img/drop-down-icon-header.webp" />
+        </button>
+        <div class="dropdown-button">
+          <button>
+            <a href="">Hüquqi şəxslər və fərdi sahibkarlar üçün</a>
+          </button>
+          <button><a href="">Fiziki şəxslər üçün</a></button>
         </div>
-      </header>
+      </div>
+    </section>
+    <div class="header-dropdown-hover">
+      <div class="dropdown-container">
+        <div class="col-md-6 dropdown-content">
+          <a href="">İnkassasiya</a>
+          <a href="">Depozitlər</a>
+          <a href="">Bank seyfləri</a>
+          <a href="">Bulud CRM</a>
+        </div>
+        <div class="col-md-6 dropdown-content">
+          <a href="">ÇatBot</a>
+          <a href="">Elektron-ticarət üçün mobil tətbiq</a>
+          <a href="">Umico MasterPass</a>
+          <a href="">PAŞA Biznes</a>
+        </div>
+      </div>
+    </div>
+  </header>
       <main>
 
-        <section id="slider-main">
+        <section class="hidden" id="slider-main">
             <div
               id="carouselExampleIndicators"
               class="carousel slide"
@@ -179,7 +180,7 @@
             </div>
           </section>
 
-          <section id="advantages-of-cards">
+          <section class="hidden" id="advantages-of-cards">
             <div class="container">
                 <div class="advantage-div">
                     <img src="./assets/img/advantages-of-cards/1-advantage.png">
@@ -198,7 +199,7 @@
 
           </section>
 
-          <section id="advantages-of-salary-cards">
+          <section class="hidden" id="advantages-of-salary-cards">
             <div class="container">
                 <h2>Üstünlüklər</h2>
                 <div class="advantages-tabs-cards">
@@ -275,7 +276,7 @@
 
           </section>
 
-          <section id="rates-package-salary">
+          <section class="hidden" id="rates-package-salary">
             <div class="container">
                 <h1>Tarif paketləri</h1>
                 <p>Biznesinizə uyğun tarif paketini seçmək və ya əməkhaqqı fondundan asılı endirimli tariflərdən yararlanmaq üçün müraciət edin</p>
@@ -451,7 +452,7 @@
             </div>
             </section>
 
-            <section id="how-to-order-card">
+            <section class="hidden" id="how-to-order-card">
                 <div class="container">
                   <h2>Əməkhaqqı layihəsinə qoşulmaq üçün 3 sadə addım</h2>
                   <div class="order-steps">
@@ -492,7 +493,7 @@
                 </div>
               </section>
 
-              <section id="account-image" style="margin-top: 30px;">
+              <section class="hidden" id="account-image" style="margin-top: 30px;">
                 <div
                   class="image"
                   style="
@@ -508,13 +509,13 @@
                       <h1 style="margin-bottom: 50px;">
                         Banka gəlmədən <br> əməkhaqqı kartlarını <br> onlayn sifariş edin
                       </h1>
-                      <a  href="https://pashabank.digital/login#/">Sipariş et</a>
+                      <a  href="https://pashabank.digital/login#/" target="_blank">Sipariş et</a>
                     </div>
                   </div>
                 </div>
               </section>
 
-              <section id="most-asked-questions">
+              <section class="hidden" id="most-asked-questions">
                 <div class="container">
                   <h1>Ən çox verilən suallar</h1>
                 <ul class="accordion-questions">

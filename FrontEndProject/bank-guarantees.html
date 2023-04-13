@@ -45,54 +45,54 @@
 </head>
 <body>
 
-    <header>
-        <section id="header-nav">
-          <div class="logo-nav-tabs">
-            <a href="/main.html">
-              <img
-                id="header-logo"
-                src="./assets/img/pasha-bank-logo.svg"
-                alt="Pasa bank logo"
-              />
-            </a>
-            <p class="nav-tab-header">Biznes üçün xidmətlər</p>
-            <p class="nav-tab-header">Kreditlər</p>
-            <p class="nav-tab-header">Faktorinq</p>
-            <p class="nav-tab-header">Sənədli əməliyyatlar</p>
-            <p class="nav-tab-header">Əlavə Xidmətlər</p>
-          </div>
-          <div class="online-bank">
-            <button class="choose-button">
-              Onlayn Bank<img src="./assets/img/drop-down-icon-header.webp" />
-            </button>
-            <div class="dropdown-button">
-              <button>
-                <a href="">Hüquqi şəxslər və fərdi sahibkarlar üçün</a>
-              </button>
-              <button><a href="">Fiziki şəxslər üçün</a></button>
-            </div>
-          </div>
-        </section>
-        <div class="header-dropdown-hover">
-          <div class="dropdown-container">
-            <div class="col-md-6 dropdown-content">
-              <a href="">İnkassasiya</a>
-              <a href="">Depozitlər</a>
-              <a href="">Bank seyfləri</a>
-              <a href="">Bulud CRM</a>
-            </div>
-            <div class="col-md-6 dropdown-content">
-              <a href="">ÇatBot</a>
-              <a href="">Elektron-ticarət üçün mobil tətbiq</a>
-              <a href="">Umico MasterPass</a>
-              <a href="">PAŞA Biznes</a>
-            </div>
-          </div>
+  <header>
+    <section id="header-nav">
+      <div class="logo-nav-tabs">
+        <a href="/main.html">
+          <img
+            id="header-logo"
+            src="./assets/img/pasha-bank-logo.svg"
+            alt="Pasa bank logo"
+          />
+        </a>
+        <p class="nav-tab-header">Biznes üçün xidmətlər</p>
+        <p class="nav-tab-header">Kreditlər</p>
+        <p class="nav-tab-header">Faktorinq</p>
+        <p class="nav-tab-header">Sənədli əməliyyatlar</p>
+        <p class="nav-tab-header">Əlavə Xidmətlər</p>
+      </div>
+      <div class="online-bank">
+        <button class="choose-button">
+          Onlayn Bank<img src="./assets/img/drop-down-icon-header.webp" />
+        </button>
+        <div class="dropdown-button">
+          <button>
+            <a href="">Hüquqi şəxslər və fərdi sahibkarlar üçün</a>
+          </button>
+          <button><a href="">Fiziki şəxslər üçün</a></button>
         </div>
-      </header>
-
+      </div>
+    </section>
+    <div class="header-dropdown-hover">
+      <div class="dropdown-container">
+        <div class="col-md-6 dropdown-content">
+          <a href="">İnkassasiya</a>
+          <a href="">Depozitlər</a>
+          <a href="">Bank seyfləri</a>
+          <a href="">Bulud CRM</a>
+        </div>
+        <div class="col-md-6 dropdown-content">
+          <a href="">ÇatBot</a>
+          <a href="">Elektron-ticarət üçün mobil tətbiq</a>
+          <a href="">Umico MasterPass</a>
+          <a href="">PAŞA Biznes</a>
+        </div>
+      </div>
+    </div>
+  </header>
       <main>
-        <section id="account-image">
+        <div class="show" id="preloader"> <img src="./assets/img/loading.gif"></div>
+        <section class="hidden" id="account-image">
             <div
               class="image"
               style="background-color: white;
@@ -109,13 +109,13 @@
                     Bank qarantiyası
                   </h1>
                   <p>Müqavilə öhdəliklərinin yerinə yetirilməsinə zəmanət</p>
-                  <a href="#">Müraciət et</a>
+                  <a href="#application-form">Müraciət et</a>
                 </div>
               </div>
             </div>
           </section>
 
-          <section id="advantages-of-bank-guarantees">
+          <section class="hidden" id="advantages-of-bank-guarantees">
             <div class="container">
                 <h2>Üstünlüklər</h2>
                 <div class="advantages-tabs-cards">
@@ -246,7 +246,7 @@
 
           </section>
 
-          <section style="padding: 50px;" id="why-we-need-bank-guarantees">
+          <section class="hidden" style="padding: 50px;" id="why-we-need-bank-guarantees">
             
             <div class="container">
                 <div style="margin-bottom: 80px; "  class="why-we-need-content">
@@ -265,7 +265,7 @@
 
           </section>
 
-          <section id="guarantees-sort">
+          <section class="hidden" id="guarantees-sort">
             <div class="container">
                 <h2>Bank qarantiyaları</h2>
                 <div class="sort-buttons">
@@ -287,7 +287,7 @@
                         <li><img src="https://sme.pashabank.az/themes/sme/assets/images/guarantees/Vector.svg">Tender qalibi Satıcının xidmətlərin icrasına və ya malların çatdırılmasına dair müqavilənin <br>
                             imzalanmasına etiraz riskini aradan qaldırır.</li>
                     </ul>
-                    <a href=""><button>Müraciət et</button></a>
+                    <a href="#application-form"><button>Müraciət et</button></a>
                 </div>
                 <div class="guarantee express">
                     <h2>Ekspress-tender qarantiyası</h2>
@@ -298,7 +298,7 @@
                             müqavilənin imzalanmasına etiraz riskini aradan qaldırır.</li>
                         <li><img src="https://sme.pashabank.az/themes/sme/assets/images/guarantees/Vector.svg">Girov və ya nağd vəsait tələb olunmadan Banka müraciət edilən gün təqdim edilir.</li>
                     </ul>
-                    <a href=""><button>Müraciət et</button></a>
+                    <a href="#application-form"><button>Müraciət et</button></a>
                 </div>
                 <div class="guarantee icra">
                     <h2>İcra qarantiyası</h2>
@@ -307,7 +307,7 @@
                             qarşısında tam yerinə yetirilməsini təmin edir.</li>
                         
                     </ul>
-                    <a href=""><button>Müraciət et</button></a>
+                    <a href="#application-form"><button>Müraciət et</button></a>
                 </div>
                 <div class="guarantee avans">
                     <h2>Avans ödənişinin geri qaytarılması qarantiyası</h2>
@@ -316,7 +316,7 @@
                             Alıcının əvvəlcədən ödədiyi vəsaitin geri qaytarılmasını təmin edir.</li>
                         
                     </ul>
-                    <a href=""><button>Müraciət et</button></a>
+                    <a href="#application-form"><button>Müraciət et</button></a>
                 </div>
                 <div class="guarantee maliyye">
                     <h2>Maliyyə vəsaitlərinin saxlanması qarantiyası</h2>
@@ -327,7 +327,7 @@
                         <li><img src="https://sme.pashabank.az/themes/sme/assets/images/guarantees/Vector.svg">Satıcı tərəfindən icra ilə bağlı uyğunsuzluq olduqda Alıcıya qarantiya məbləğinin <br>
                             ödənilməsini təmin edir.</li>
                     </ul>
-                    <a href=""><button>Müraciət et</button></a>
+                    <a href="#application-form"><button>Müraciət et</button></a>
                 </div>
                 <div class="guarantee odeme">
                     <h2>Ödəmə qarantiyası</h2>
@@ -335,7 +335,7 @@
                         <li><img src="https://sme.pashabank.az/themes/sme/assets/images/guarantees/Vector.svg">Alıcı tərəfindən çatdırılmış malların, görülən xidmətlərin dəyərinin Satıcıya ödənilməsini təmin edir.</li>
 
                     </ul>
-                    <a href=""><button>Müraciət et</button></a>
+                    <a href="#application-form"><button>Müraciət et</button></a>
                 </div>
                 <div class="guarantee gomruk">
                     <h2>Gömrük və ya vergi qarantiyası</h2>
@@ -343,7 +343,7 @@
                         <li><img src="https://sme.pashabank.az/themes/sme/assets/images/guarantees/Vector.svg">Sahibkarın vergi və gömrük xidmətləri nümayəndələri qarşısında vergi və gömrük ödənişlərinin <br>
                             həyata keçirilməsi üzrə öhdəlikləri təmin edir.</li>
                     </ul>
-                    <a href=""><button>Müraciət et</button></a>
+                    <a href="#application-form"><button>Müraciət et</button></a>
                 </div>
                 <div class="guarantee kontrqarantiya">
                     <h2>Kontrqarantiya</h2>
@@ -351,12 +351,12 @@
                         <li><img src="https://sme.pashabank.az/themes/sme/assets/images/guarantees/Vector.svg">Müştərinin ərizəsi əsasında Bank-Kontrqarant (PAŞA Bank) Bank-Qarantın (Benefisiarbank) <br>
                             xeyrinə verilmiş qarantiya və bunun əsasında Bank-Qarant Benefisiarın xeyrinə öz qarantiyasını verir.</li>
                     </ul>
-                    <a href=""><button>Müraciət et</button></a>
+                    <a href="#application-form"><button>Müraciət et</button></a>
                 </div>
             </div>
         </section>
 
-        <section id="g-4-steps-guarantee">
+        <section class="hidden" id="g-4-steps-guarantee">
             <div class="container">
                 <h2>Bank qarantiyasını üçün 4 sadə addım</h2>
             <div class="g-4-steps">
@@ -389,13 +389,21 @@
 
         </section>
 
-        <section id="application-form">
+        <section class="hidden" id="application-form">
             <div class="container">
                 <h2>Müraciət forması</h2>
             <div class="form">
-                <input type="text" placeholder="Ad,Soyad">
-                <input type="number" placeholder="+994 00 000 0000">
-                <a href="#"><button>Müraciət et</button></a>
+              <div class="js-input" >
+
+              </div>
+              <div>
+                <input class="form-name" type="text" placeholder="Ad,Soyad">
+                <input class="form-number" type="number" placeholder="+994 00 000 0000">
+                <a><button>Müraciət et</button></a>
+
+              </div>
+              
+                
             </div>
         </div>
     </section>

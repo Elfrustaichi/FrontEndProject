@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./js/payments.js" type="module" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <div class="show" id="preloader"> <img src="./assets/img/loading.gif"></div>
+
+  <header>
+    <section id="header-nav">
+      <div class="logo-nav-tabs">
+        <a href="/main.html">
+          <img
+            id="header-logo"
+            src="./assets/img/pasha-bank-logo.svg"
+            alt="Pasa bank logo"
+          />
+        </a>
+        <p class="nav-tab-header">Biznes üçün xidmətlər</p>
+        <p class="nav-tab-header">Kreditlər</p>
+        <p class="nav-tab-header">Faktorinq</p>
+        <p class="nav-tab-header">Sənədli əməliyyatlar</p>
+        <p class="nav-tab-header">Əlavə Xidmətlər</p>
+      </div>
+      <div class="online-bank">
+        <button class="choose-button">
+          Onlayn Bank<img src="./assets/img/drop-down-icon-header.webp" />
+        </button>
+        <div class="dropdown-button">
+          <button>
+            <a href="">Hüquqi şəxslər və fərdi sahibkarlar üçün</a>
+          </button>
+          <button><a href="">Fiziki şəxslər üçün</a></button>
+        </div>
+      </div>
+    </section>
+    <div class="header-dropdown-hover">
+      <div class="dropdown-container">
+        <div class="col-md-6 dropdown-content">
+          <a href="">İnkassasiya</a>
+          <a href="">Depozitlər</a>
+          <a href="">Bank seyfləri</a>
+          <a href="">Bulud CRM</a>
+        </div>
+        <div class="col-md-6 dropdown-content">
+          <a href="">ÇatBot</a>
+          <a href="">Elektron-ticarət üçün mobil tətbiq</a>
+          <a href="">Umico MasterPass</a>
+          <a href="">PAŞA Biznes</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+      <main>
+        <section class="hidden" id="account-image">
+            <div
+              class="image"
+              style="
+                background-image: url(https://sme.pashabank.az/themes/sme/assets/images/slider/payments.png);
+                background-color: #f1faf8;
+                background-position-x: 70%;
+              "
+            >
+              <div class="container">
+                <div class="image-content">
+                  <h1>
+                    Ölkədaxili ödəniş <br> komissiyalarına 50% endirim
+                  </h1>
+                  <p>0.09% -dan başlayan komissiya haqqı!</p>
+                  <a href="https://www.pashabank.digital/login#/signup" target="_blank">Daxil ol</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="hidden" id="account-advantages" style="padding: 70px;">
+            <div class="container">
+              <h2>İstənilən növ ödənişlər Banka <br> gəlmədən və cəmi bir neçə addımda</h2>
+              <p style="font-size: 18px; margin-top: 30px; color: gray;">Onlayn Bank vasitəsilə müxtəlif növ ödənişləri bir neçə addımda 24/7 rejimində həyata keçirin. Həmçinin ƏDV ödənişlərinizi avtomatlaşdırıb, asanlıqla cəmi bir addımda ödəyin .</p>
+              <div class="advantage-list">
+                <div class="row">
+                  <div class="advantage col-md-4">
+                      <img  src="./assets/img/payments-advantages/1.png">
+                    <div class="advantage-text">
+                      <h5>Sərfəli</h5>
+                      <p>Sizin biznes ehtiyaclarına uyğun sərfəli komissiyalar</p>
+                    </div>
+      
+                  </div>
+                  <div class="advantage col-md-4">
+                    <img src="./assets/img/payments-advantages/2.png">
+                    <div class="advantage-text">
+                      <h5>Məsafədən bankçılıq</h5>
+                      <p>Dünyanın istənilən yerindən ödənişlərin həyata keçirilməsi</p>
+                    </div>
+      
+                  </div>
+                  <div class="advantage col-md-4">
+                    <img src="./assets/img/payments-advantages/3.png" >
+                    <div class="advantage-text">
+                      <h5>24/7 dəstək</h5>
+                      <p>Məlumat mərkəzinin 24/7 rejimdə dəstəyi</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+    
+    
+          </section>
+
+          <section class="hidden" id="documents-needed">
+            <div class="container">
+                <h2>Yeni təkliflər</h2>
+                <div class="documents-row">
+                    <div class="document">
+                       
+                        <p>“Dəstək” paketi daxilində ölkədaxili ödəniş komissiyalarına 50% endirim. Hər ödəniş üçün cəmi 0.09% komissiya haqqı!</p>
+                        
+                    </div>
+                    <div class="document">
+                        
+                        <p>“Dəstək” Paketinə qoşulan hüquqi şəxs və fərdi sahibkarlar üçün POS-terminal üzrə 31 Mart 2021-ci il tarixinədək komissiya haqqı - 1%</p>
+                       
+                    </div>
+                    <div class="document">
+                        
+                        <p>Bütün hesablarınız üzrə çıxarışları avtomatik əldə etmə imkanı: sənədsiz, filiala gəlmədən, istənilən zaman.</p>
+                      
+                    </div>
+                    </div>
+                    
+                    </div>
+
+                </div>
+
+            </div>
+
+          </section>
+
+          <section class="hidden" id="account-image">
+            <div
+              class="image"
+              style="
+                background-image: url(https://sme.pashabank.az/themes/sme/assets/images/payments/kob-bg.jpg);
+                background-color: linear-gradient(90deg,rgba(0,0,0,.6),transparent 103.17%);
+                background-size: cover;
+                background-position: 100% 0;
+              "
+            >
+              <div class="container">
+                <div class="image-content">
+                  <h1 style="color: white;">
+                    Ölkədaxili ödəniş <br> komissiyalarına 50% endirim
+                  </h1>
+                  <div style="display: flex; justify-content: space-between; width: 50%;"  >
+                    <p style="color: white; font-weight: 600;">Pul köçürmələri <br>
+                      50%</p>
+                  <p style="color: white; font-weight: 600;">POS terminal tarifləri <br>
+                    50%</p>
+                  <p style="color: white; font-weight: 600;">Əməkhaqqı ödənişləri <br>
+                    20%</p>
+
+                  </div>
+                  
+                  <a href="https://www.pashabank.digital/login#/signup" target="_blank">Daxil ol</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="hidden" id="extracts">
+            <div class="container">
+              <div class="extracts-text">
+                <h2>Çıxarışlar</h2>
+                <ul>
+                  <li>Hesablar üzrə çıxarışları Banka gəlmədən, sənəd imzalamadan Onlayn Bankdan yükləmə imkanı</li>
+                  <li>1 il ərzində istənilən hesabdan çıxarış alma imkanı</li>
+                  <li>Yeni funksionallıq sayəsində, hesablar üzrə çıxarışların gün, həftə və aylar üzrə alınmasının avtomatlaşdırılması</li>
+                </ul>
+                <a href="https://www.pashabank.digital/login#/signup" target="_blank">Daxil ol</a>
+                
+
+
+              </div>
+              <div class="extracts-img">
+                <div class="img">
+                  
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </section>
+
+          <section class="hidden" style="padding: 50px;" id="most-asked-questions">
+            <div class="container">
+              <h1>Ən çox verilən suallar</h1>
+            <ul class="accordion-questions">
+              <li class="question-acc">
+                <div class="question-text">
+                  <p class="accordion-header">Hansı növ ödənişləri Onlayn Bankdan etmək olar?</p>
+                  <p class="accordion-dropdown-question">Bankdaxili ödənişlər <br>
+
+                    Öz hesabları arası ödənişlər <br>
+                    
+                    Ölkədaxili ödənişlər <br>
+                    
+                    Beynəlxalq ödənişlər <br>
+                    
+                    “Anipay” ilə ödənişlər  <br>
+                    
+                    Vergi / Büdcə ödənişləri <br>
+                    
+                    Hökümət Ödəniş Portalı üzrə ödənişlər</p>
+                  </div>
+                 
+                 <img src="./assets/img/accordion-icon.png">
+                </li>
+              <li class="question-acc">
+                <div class="question-text">
+                  <p class="accordion-header">Bir neçə ödənişi seçib birdən imzalamaq olarmı?</p>
+                  <p class="accordion-dropdown-question">Bəli. “Təsdiq gözləyən” bölməyə daxil olub istədiyiniz ödənişləri və ya hamısını seçib “İmzala” düyməsini basaraq <br> imzalaya bilərsiniz.</p>
+                  </div>
+                 <img src="./assets/img/accordion-icon.png">
+                </li>
+                <li class="question-acc">
+                  <div class="question-text">
+                    <p class="accordion-header">Fərqli tip ödənişlər bir dəfəyə seçib imzalaya bilərəmmi?</p>
+                    <p class="accordion-dropdown-question">Bəli. Qarışıq ödəniş növlərindən olan ödənişləri seçib bir dəfəyə imzalaya bilərsiniz.</p>
+                    </div>
+                   <img src="./assets/img/accordion-icon.png">
+                  </li>
+                  <li class="question-acc">
+                    <div class="question-text">
+                      <p class="accordion-header">Ödənişləri ASAN İmza ilə imzalaya bilərəmmi?</p>
+                      <p class="accordion-dropdown-question"> Bəli. Həm ASAN, həm də OTP ilə imzalamadan istifadə edə bilərsiniz.</p>
+                      </div>
+                     <img src="./assets/img/accordion-icon.png">
+                    </li>
+                    <li class="question-acc">
+                      <div class="question-text">
+                        <p class="accordion-header">Hökümət ödəniş portalı ilə edilən ödənişləri onlayn bankdan etmək olurmu?</p>
+                        <p class="accordion-dropdown-question">Onlayn bankda “Ödənişlər” bölməsində yalnız gömrük və sığorta ödənişlərini yaradıb imzalamaq mümkündür.</p>
+                        </div>
+                       <img src="./assets/img/accordion-icon.png">
+                      </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="container">
+          <div class="header">
+            <div>
+              <img
+                src="https://sme.pashabank.az/themes/sme/assets/images/logo_az.svg"
+              />
+            </div>
+            <div>
+              <p>
+                *9123 / (+99 412) 496 50 00 <br />
+                <span>Fərdi müştərilər üçün</span>
+              </p>
+            </div>
+            <div>
+              <p>
+                *8123 / (+994 12) 496 50 04 <br /><span
+                  >Korporativ müştərilər üçün</span
+                >
+              </p>
+            </div>
+            <div>
+              <p>customer.care@pashabank.az <br /><span>E-mail</span></p>
+            </div>
+          </div>
+          <div class="main">
+            <ul class="main-column">
+              <h5>Korporativ Bankçılıq</h5>
+              <li><a href="">Hesablaşma-kassa xidmətləri</a></li>
+              <li><a href="">Depozitlər</a></li>
+              <li><a href="">İnkassasiya</a></li>
+              <li><a href="">Bank seyfləri</a></li>
+              <li><a href="">Bank kartları</a></li>
+              <li><a href="">Korporativ kreditləşmə</a></li>
+              <li><a href="">Faktorinq</a></li>
+              <li><a href="">Sənədli əməliyyatlar</a></li>
+              <li><a href="">Ekvayrinq (POS) xidmətləri</a></li>
+              <li><a href="">Distant bank xidmətləri</a></li>
+              <li><a href="">Qeyri-maliyyə xidmətləri</a></li>
+              <li><a href="">Ümumi şərtlər toplusu</a></li>
+            </ul>
+            <ul class="main-column">
+              <h5>Kiçik və Orta Biznes</h5>
+              <li><a href=""> Biznes üçün hesab </a></li>
+              <li><a href=""> Əməkhaqqı layihəsi </a></li>
+              <li><a href=""> Elektron ticarət </a></li>
+              <li><a href=""> POS–terminal və E–kassa </a></li>
+              <li><a href=""> Biznes kartlar </a></li>
+              <li><a href=""> Onlayn biznes krediti </a></li>
+              <li><a href=""> İnvoysların maliyyələşdirilməsi </a></li>
+              <li><a href=""> Bank qarantiyası </a></li>
+              <li><a href=""> Ekspress-Tender qarantiyası </a></li>
+              <li><a href=""> Akkreditiv </a></li>
+              <li><a href=""> Ticarətin maliyyələşdirilməsi </a></li>
+              <li><a href=""> Linklə ödəniş </a></li>
+            </ul>
+            <ul class="main-column">
+              <h5>Fərdi Bankçılıq</h5>
+              <li><a href=""> Private Banking </a></li>
+              <li><a href=""> Hesablaşma-kassa xidmətləri </a></li>
+              <li><a href=""> Depozitlər </a></li>
+              <li><a href=""> Bank seyfləri </a></li>
+              <li><a href=""> Bank kartları </a></li>
+              <li><a href=""> Distant bank xidmətləri </a></li>
+              <li><a href=""> Əlaqə mərkəzi </a></li>
+              <li><a href=""> Kreditlər </a></li>
+              <li><a href=""> Mobil əlavə </a></li>
+              <li><a href=""> Endirim platforması </a></li>
+              <li><a href=""> Onlayn xidmətlər </a></li>
+              <li><a href=""> Ümumi şərtlər toplusu </a></li>
+            </ul>
+            <ul class="main-column">
+              <h5>Digər</h5>
+              <li><a href=""> İnvestisiya bankçılığı </a></li>
+              <li><a href=""> Maliyyə institutları </a></li>
+              <li><a href=""> Haqqımızda </a></li>
+              <li><a href=""> Xəbərlər </a></li>
+              <li><a href=""> Əməliyyat ölkələri </a></li>
+              <li><a href=""> Təklif və şikayətlər </a></li>
+              <li><a href=""> Filiallar və bankomatlar </a></li>
+              <li><a href=""> Əlaqə </a></li>
+              <li class="footer-icons">
+                <a href="https://www.facebook.com/pashabank/" target="_blank"
+                  ><img src="./assets/img/footer-icons/facebook-icon.png"
+                /></a>
+                <a href="https://twitter.com/PASHABank" target="_blank"
+                  ><img src="./assets/img/footer-icons/twitter-icon.png"
+                /></a>
+                <a
+                  href="https://www.linkedin.com/company/pasha-bank"
+                  target="_blank"
+                  ><img src="./assets/img/footer-icons/in-icon.jpg"
+                /></a>
+                <a href="https://www.youtube.com/user/PASHABank" target="_blank"
+                  ><img src="./assets/img/footer-icons/youtube-icon.png"
+                /></a>
+                <a href="https://www.instagram.com/pashabank/" target="_blank"
+                  ><img src="./assets/img/footer-icons/instagram-icon.jpg"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="container">
+            <p>© 2023, PAŞA Bank</p>
+            <p>
+              Bank Azərbaycan Respublikası Mərkəzi Bankının 250 saylı 28 noyabr
+              2007-ci il tarixli lisenziyası əsasında fəaliyyət göstərir.
+            </p>
+          </div>
+        </div>
+      </footer>
+  
+    
+</body>
+</html>

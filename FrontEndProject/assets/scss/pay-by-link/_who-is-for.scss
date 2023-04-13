@@ -1,0 +1,29 @@
+#who-is-for-pay-by-link{
+    padding: 50px;
+    .container{
+        h2{
+            margin-bottom: 20px;
+        }
+        p{
+            margin-bottom: 40px;
+        }
+        .who-can-use{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            div{
+                width: 32%;
+                min-width: 311px;
+                max-width: 368px;
+                padding: 24px;
+                box-shadow: 0 2px 8px rgba(52,56,54,.05);
+                border-radius: 2px;
+                margin-bottom: 24px;
+                background-color: white;
+                img{
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}

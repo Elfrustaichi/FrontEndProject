@@ -29,16 +29,16 @@ headerNavTabs.forEach((e) => {
         dropdownContentContainer.innerHTML += `
         <div class="col-md-6 dropdown-content">
         <a href="./rates.html">Tariflər</a>
-        <a href="">GRO platforması</a>
-        <a href="">Biznes üçün hesab</a>
-        <a href="">Əməkhaqqı lahiyəsi</a>
-        <a href="">Ödənişlər</a>
+        <a href="https://gro.az/">GRO platforması</a>
+        <a href="./accounts.html" target="_blank">Biznes üçün hesab</a>
+        <a href="./salary-cards.html">Əməkhaqqı lahiyəsi</a>
+        <a href="./payments.html">Ödənişlər</a>
       </div>
       <div class="col-md-6 dropdown-content">
-            <a href="">Biznes kartlar</a>
-            <a href="">POS-terminal və E-kassa</a>
-            <a href="">Elektron ticarət</a>
-            <a href="">Linklə ödəniş</a>
+            <a href="./business-cards.html">Biznes kartlar</a>
+            <a href="./POS-terminal.html">POS-terminal və E-kassa</a>
+            <a href="./e-commerce.html">Elektron ticarət</a>
+            <a href="./pay-by-link.html">Linklə ödəniş</a>
           </div>
           `;
         break;
@@ -46,48 +46,48 @@ headerNavTabs.forEach((e) => {
         dropdownContentContainer.innerHTML = "";
         dropdownContentContainer.innerHTML += `
             <div class="col-md-6 dropdown-content">
-            <a href="">Onlayn biznes kreditləri</a>
-            <a href="">Biznes kreditləri</a>
-            <a href="">Gömrük kartı üzrə kredit xətti</a>
-            <a href="">SİF kreditləri</a>
+            <a href="./online-business-credit.html">Onlayn biznes kreditləri</a>
+            <a href="yaz">Biznes kreditləri</a>
+            <a href="https://www.pashabank.az/sme_banking/az/node/51">Gömrük kartı üzrə kredit xətti</a>
+            <a href="yaz">SİF kreditləri</a>
           </div>`;
         break;
       case "Faktorinq":
         dropdownContentContainer.innerHTML = "";
         dropdownContentContainer.innerHTML += `
                 <div class="col-md-6 dropdown-content">
-                <a href="">İnvoysların maliyyələşdirilməsi</a>
-                <a href="">Alış sifarişi əsasında maliyyələşmə</a>
-                <a href="">Təchizat zəncirinin maliyyələşdirilməsi</a>
+                <a href="https://www.pashabank.az/sme_banking/az/node/29">İnvoysların maliyyələşdirilməsi</a>
+                <a href="https://www.pashabank.az/sme_banking/az/sme_purchase_order_finance">Alış sifarişi əsasında maliyyələşmə</a>
+                <a href="./POS-terminal.html">Təchizat zəncirinin maliyyələşdirilməsi</a>
               </div>`;
         break;
       case "Sənədli əməliyyatlar":
         dropdownContentContainer.innerHTML = "";
         dropdownContentContainer.innerHTML += `
                     <div class="col-md-6 dropdown-content">
-                    <a href="">Ekspress-Tender qarantiyası</a>
-                    <a href="">Bank qarantiyası</a>
-                    <a href="">Akkreditiv</a>
-                    <a href="">İnkasso</a>
+                    <a href="./accounts.html" target="_blank">Ekspress-Tender qarantiyası</a>
+                    <a href="./bank-guarantees.html">Bank qarantiyası</a>
+                    <a href="https://www.pashabank.az/sme_banking/az/node/36">Akkreditiv</a>
+                    <a href="https://www.pashabank.az/sme_banking/az/node/37">İnkasso</a>
                   </div>
                   <div class="col-md-6 dropdown-content">
-                    <a href="">Ticarətin maliyyələşdirilməsi</a>
+                    <a href="https://www.pashabank.az/sme_banking/az/node/38">Ticarətin maliyyələşdirilməsi</a>
                   </div>`;
         break;
       case "Əlavə Xidmətlər":
         dropdownContentContainer.innerHTML = "";
         dropdownContentContainer.innerHTML = `
                         <div class="col-md-6 dropdown-content">
-                        <a href="">İnkassasiya</a>
-                        <a href="">Depozitlər</a>
-                        <a href="">Bank seyfləri</a>
-                        <a href="">Bulud CRM</a>
+                        <a href="https://www.pashabank.az/sme_banking/az/node/12">İnkassasiya</a>
+                        <a href="https://www.pashabank.az/sme_banking/az/node/14">Depozitlər</a>
+                        <a href="https://www.pashabank.az/sme_banking/az/node/8">Bank seyfləri</a>
+                        <a href="https://www.pashabank.az/non_finance/az/node/6">Bulud CRM</a>
                       </div>
                       <div class="col-md-6 dropdown-content">
-                        <a href="">ÇatBot</a>
-                        <a href="">Elektron-ticarət üçün mobil tətbiq</a>
-                        <a href="">Umico MasterPass</a>
-                        <a href="">PAŞA Biznes</a>
+                        <a href="https://www.pashabank.az/non_finance/az/node/8">ÇatBot</a>
+                        <a href="https://www.pashabank.az/non_finance/az/node/7">Elektron-ticarət üçün mobil tətbiq</a>
+                        <a href="yaz">Umico MasterPass</a>
+                        <a href="yaz">PAŞA Biznes</a>
                       </div>`;
         break;
     }

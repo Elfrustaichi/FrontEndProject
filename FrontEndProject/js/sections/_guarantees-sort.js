@@ -9,7 +9,6 @@ const odemeGuarantee=document.querySelector("#guarantees-sort .odeme");
 const gomrukGuarantee=document.querySelector("#guarantees-sort .gomruk");
 const kontrqarantiyaGuarantee=document.querySelector("#guarantees-sort .kontrqarantiya");
 allGuarantees.forEach((e)=>{
-    console.log(e);
     e.style.display="block";
 })
 

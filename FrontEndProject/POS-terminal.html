@@ -44,60 +44,61 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+  <div class="show" id="preloader"> <img src="./assets/img/loading.gif"></div>
 
-    <header>
-        <section id="header-nav">
-          <div class="logo-nav-tabs">
-            <a href="/main.html">
-              <img
-                id="header-logo"
-                src="./assets/img/pasha-bank-logo.svg"
-                alt="Pasa bank logo"
-              />
-            </a>
-            <p class="nav-tab-header">Biznes üçün xidmətlər</p>
-            <p class="nav-tab-header">Kreditlər</p>
-            <p class="nav-tab-header">Faktorinq</p>
-            <p class="nav-tab-header">Sənədli əməliyyatlar</p>
-            <p class="nav-tab-header">Əlavə Xidmətlər</p>
-          </div>
-          <div class="online-bank">
-            <button class="choose-button">
-              Onlayn Bank<img src="./assets/img/drop-down-icon-header.webp" />
-            </button>
-            <div class="dropdown-button">
-              <button>
-                <a href="">Hüquqi şəxslər və fərdi sahibkarlar üçün</a>
-              </button>
-              <button><a href="">Fiziki şəxslər üçün</a></button>
-            </div>
-          </div>
-        </section>
-        <div class="header-dropdown-hover">
-          <div class="dropdown-container">
-            <div class="col-md-6 dropdown-content">
-              <a href="">İnkassasiya</a>
-              <a href="">Depozitlər</a>
-              <a href="">Bank seyfləri</a>
-              <a href="">Bulud CRM</a>
-            </div>
-            <div class="col-md-6 dropdown-content">
-              <a href="">ÇatBot</a>
-              <a href="">Elektron-ticarət üçün mobil tətbiq</a>
-              <a href="">Umico MasterPass</a>
-              <a href="">PAŞA Biznes</a>
-            </div>
-          </div>
+  <header>
+    <section id="header-nav">
+      <div class="logo-nav-tabs">
+        <a href="/main.html">
+          <img
+            id="header-logo"
+            src="./assets/img/pasha-bank-logo.svg"
+            alt="Pasa bank logo"
+          />
+        </a>
+        <p class="nav-tab-header">Biznes üçün xidmətlər</p>
+        <p class="nav-tab-header">Kreditlər</p>
+        <p class="nav-tab-header">Faktorinq</p>
+        <p class="nav-tab-header">Sənədli əməliyyatlar</p>
+        <p class="nav-tab-header">Əlavə Xidmətlər</p>
+      </div>
+      <div class="online-bank">
+        <button class="choose-button">
+          Onlayn Bank<img src="./assets/img/drop-down-icon-header.webp" />
+        </button>
+        <div class="dropdown-button">
+          <button>
+            <a href="">Hüquqi şəxslər və fərdi sahibkarlar üçün</a>
+          </button>
+          <button><a href="">Fiziki şəxslər üçün</a></button>
         </div>
-      </header>
+      </div>
+    </section>
+    <div class="header-dropdown-hover">
+      <div class="dropdown-container">
+        <div class="col-md-6 dropdown-content">
+          <a href="">İnkassasiya</a>
+          <a href="">Depozitlər</a>
+          <a href="">Bank seyfləri</a>
+          <a href="">Bulud CRM</a>
+        </div>
+        <div class="col-md-6 dropdown-content">
+          <a href="">ÇatBot</a>
+          <a href="">Elektron-ticarət üçün mobil tətbiq</a>
+          <a href="">Umico MasterPass</a>
+          <a href="">PAŞA Biznes</a>
+        </div>
+      </div>
+    </div>
+  </header>
       <main>
-        <section id="account-image">
+        <section class="hidden" id="account-image">
             <div
               class="image"
               style="
                 background-image: url(https://sme.pashabank.az/themes/sme/assets/images/slider/acquiring.png);
                 background-color: rgb(223, 242, 236);
-                background-size: 35%;
+                background-size: 45%;
                 background-position-x: 90%;
                 background-position-y: 90%;
                 
@@ -114,7 +115,7 @@
             </div>
           </section>
 
-          <section id="account-advantages" style="padding: 70px;">
+          <section class="hidden" id="account-advantages" style="padding: 70px;">
             <div class="container">
               <h2>Nağdsız dövriyyənizi artırın</h2>
               <p style="font-size: 18px; margin-top: 30px;">POS–terminallar və E-kassalar ticarət və xidmət müəssisələrində ödənişləri nağdsız şəkildə qəbul etməyə imkan yaradır. Cihazları onlayn sifariş edərək obyektinizdə quraşdırın.</p>
@@ -150,7 +151,7 @@
     
           </section>
 
-          <section id="account-image">
+          <section class="hidden" id="account-image">
             <div
               class="image"
               style="
@@ -171,7 +172,7 @@
             </div>
           </section>
 
-          <section id="package-rates-POS">
+          <section class="hidden" id="package-rates-POS">
             <div class="container">
               <h2>
                 Ehtiyaclarınıza uyğun terminal seçin
@@ -198,7 +199,7 @@
                   </ul>
                   <div class="package-action-btn">
                     <button data-toggle="modal" data-target="#myModal" class="more-info-btn" value="yuksel-modal">Daha ətraflı</button>
-                    <a href="#" class="create-account-btn">Hesab aç</a>
+                    <a href="https://www.pashabank.digital/login#/signup" target="_blank" class="create-account-btn">Sipariş et</a>
                   </div>
                 </div>
                 <div class="package-info">
@@ -224,7 +225,7 @@
                   </ul>
                   <div class="package-action-btn">
                     <button data-toggle="modal" data-target="#myModal" class="more-info-btn" value="parla-modal">Daha ətraflı</button>
-                    <a href="#" class="create-account-btn">Hesab aç</a>
+                    <a href="https://www.pashabank.digital/login#/signup" target="_blank" class="create-account-btn">Sipariş et</a>
                   </div>
                 </div>
               </div>
@@ -250,7 +251,7 @@
           </div>
           </section>
 
-          <section id="account-advantages" style="padding: 70px;">
+          <section class="hidden" id="account-advantages" style="padding: 70px;">
             <div class="container">
               <h2>Xidmətə üç addımda qoşulun</h2>
               <div class="advantage-list">
@@ -283,24 +284,24 @@
     
           </section>
 
-          <section id="documents-needed">
+          <section class="hidden" id="documents-needed">
             <div class="container">
                 <h2>Lazım olan sənədlər</h2>
                 <div class="documents-row">
                     <div class="document">
                         <h5>Asan imza</h5>
                         <p>Kimliyi təsdiq edən, onlayn xidmətlərdən istifadə etmək və rəqəmsal imza ilə sənədləri təsdiq etmək üçün istifadə olunan mobil identifikasiya.</p>
-                        <a href="">Necə əldə etməli <img src="./assets/img/link-after-arrow.png"></a>
+                        <a href="https://asanimza.az/en/" target="_blank">Necə əldə etməli <img src="./assets/img/link-after-arrow.png"></a>
                     </div>
                     <div class="document">
                         <h5>Şəhadətnamə dublikat</h5>
                         <p>Dövlət qeydiyyatı vergi orqanları tərəfindən aparılan hüquqi şəxslər və fərdi sahibkarlara Bankda hesab açmaq üçün təqdim edilən sənəd.</p>
-                        <a href="">Necə əldə etməli <img src="./assets/img/link-after-arrow.png"></a>
+                        <a href="https://www.youtube.com/watch?v=lkCL5PJYqk0" target="_blank">Necə əldə etməli <img src="./assets/img/link-after-arrow.png"></a>
                     </div>
                     <div class="document">
                         <h5>Vergi uçot kodu</h5>
                         <p>Vergi ödəyicisinin təsərrüfat subyektinin uçot məlumatlarının vergi ödəyicisinin reyestrinə daxil edildikdə ona təqdim olunan 15 rəqəmli kod.</p>
-                        <a href="">Necə əldə etməli <img src="./assets/img/link-after-arrow.png"></a>
+                        <a href="https://www.youtube.com/watch?v=TagMbpukEAo" target="_blank">Necə əldə etməli <img src="./assets/img/link-after-arrow.png"></a>
                     </div>
                     </div>
                     
